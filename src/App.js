@@ -21,7 +21,7 @@ function App() {
       "Password": password
     };
 
-    fetch('http://localhost:8000/Login', {
+    fetch('https://backendpr3.azurewebsites.net/Login', {
       method: 'POST', 
       headers: {
         'Content-Type': 'application/json',
